@@ -27,3 +27,14 @@ git revert c2b3949 // create new commit in which removes changes made in c2b3949
 
 git reset c2b3949 // removes all commit to c2b3949 but don't remove unstaged changes in editor
 git reset c2b3949 --hard // removes all commit to c2b3949 with unstaged changes in editor
+
+git branch feature-1 // create new branch "feature-1" from this commit
+git branch -a // show all branches
+
+git checkout feature-1 // switch to "feature-1" branch
+git checkout master // switch back to master branch
+
+git branch -d feature-1 // delete branch "feature-1", but not with existed commits
+git branch -D feature-1 // delete branch "feature-1" even with existed commits
+
+git checkout -b feature-2 // create new branch "feature-2" from this commit and switch to it
