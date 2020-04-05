@@ -53,3 +53,5 @@ git remote -v // shows remote aliases
 git push origin master // push current branch to master branch in remote repository with alias "origin"
 
 git clone https://github.com/alex-kzr/git-tutorial.git // create directory "git-tutorial" and place repo in it, "origin" alias is binded to https://github.com/alex-kzr/git-tutorial.git
+
+git pull origin master // fetch all commits from branch master in remote repository to local repo
