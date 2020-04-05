@@ -38,3 +38,6 @@ git branch -d feature-1 // delete branch "feature-1", but not with existed commi
 git branch -D feature-1 // delete branch "feature-1" even with existed commits
 
 git checkout -b feature-2 // create new branch "feature-2" from this commit and switch to it
+
+git checkout master // switch back to master branch before merge
+git merge feature-1 // merge changes in feature-1 branch with master
